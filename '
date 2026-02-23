@@ -34,13 +34,7 @@ main {
 
 .photo-credit {
   position: absolute;
-  bottom: 0;
-  color: white;
-  left: 140px;
-}
-
-.photo-credit > a {
-  color: white;
+  top: 0;
 }
 
 .background-image {
