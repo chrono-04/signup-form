@@ -21,13 +21,14 @@ main {
 }
 
 .main-container {
+  display: flex;
   width: 70%;
   border: 2px solid red;
   height: 100%;
 }
 
 .bg-image-container {
-  width: 480px;
+  min-width: 480px;
   height: 100%;
   position: relative;
 }
@@ -73,4 +74,75 @@ main {
   left: 120px;
   top: 15px;
   font-size: 4.5rem;
+}
+
+/*USER FORM*/
+.form-container {
+  width: 100%;
+  height: 100%;
+  background-color: #f9fafb;
+  display: flex;
+  align-items: center;
+}
+
+.header-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 3px 2px #d1d1d1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.field-container > div > label {
+  font-size: 0.8rem;
+  padding: 5px 0;
+  font-weight: bold;
+}
+
+.field-container > div > input {
+  padding: 5px 3px;
+}
+
+.field-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.field-container > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.action-container {
+  padding: 20px;
+}
+
+.action-container > p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+
+.create-acc-btn {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #596d48;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
