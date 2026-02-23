@@ -23,7 +23,6 @@ main {
 .main-container {
   display: flex;
   width: 70%;
-  border: 2px solid red;
   height: 100%;
 }
 
@@ -116,6 +115,11 @@ form {
 
 .field-container > div > input {
   padding: 5px 3px;
+}
+
+.normal-field:focus {
+  padding: 5px 3px;
+  border: 1px solid #e5e7eb;
 }
 
 .field-container {
